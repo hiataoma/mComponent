@@ -1,7 +1,5 @@
 # 初始化form组件
 
-# 构建弹窗组件
-
 ## Build Setup
 
 ``` bash
