@@ -1,7 +1,7 @@
 {
   "name": "mht-plugin",
   "description": "mahaitao",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "mahaitao1120@gmail.com",
   "license": "MIT",
   "main": "dist/mht-plugin.js",
