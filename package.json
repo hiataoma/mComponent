@@ -1,11 +1,10 @@
 {
-  "name": "m-plugin",
+  "name": "mht-plugin",
   "description": "mahaitao",
   "version": "1.0.0",
   "author": "mahaitao1120@gmail.com",
   "license": "MIT",
-  "private": false,
-  "main": "dist/m-plugin.js",
+  "main": "dist/mht-plugin.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
