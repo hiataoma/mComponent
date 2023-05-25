@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <h2>calculate</h2>
-    <sum-function :num1="num1" :num2="num2" v-on:getSumFromChild="receiveChildSum"></sum-function>
+    <!-- <sum-function :num1="num1" :num2="num2" v-on:getSumFromChild="receiveChildSum"></sum-function> -->
     <p>从子组件获取到的值：{{sumFromChild}}</p>
     -----------------------------组件实现-----------------------------------
     <br/>
@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import sumFunction from './myPlugin/sumFunction/sum-function.vue' // 引入
+// import sumFunction from './lib/sumFunction/sum-function.vue' // 引入
 export default {
   name: 'app',
   data () {
@@ -23,7 +23,7 @@ export default {
     }
   },
   components: { // 注册插件
-    sumFunction
+    // sumFunction
   },
   methods: {
     receiveChildSum (sum) { // 自定义事件，接收子组件的和

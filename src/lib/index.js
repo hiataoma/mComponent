@@ -1,8 +1,6 @@
-// import sumFunction from "./myPlugin/sumFunction";
-import sum2 from "./myPlugin/sum2";
+import sum2 from "./sum2";
 
 const components = [
-    // sumFunction,
     sum2
  // ...添加组件
 ]

@@ -1,11 +1,11 @@
 {
-  "name": "acService",
+  "name": "m-plugin",
   "description": "mahaitao",
   "version": "1.0.1",
   "author": "mahaitao1120@gmail.com",
   "license": "MIT",
   "private": false,
-  "main": "dist/acService.js",
+  "main": "dist/m-plugin.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"

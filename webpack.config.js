@@ -7,13 +7,13 @@ function resolve (dir) {
   return path.join(__dirname, dir)
 }
 module.exports = {
-  // entry: NODE_ENV == 'development' ? './src/main.js' : './src/myPlugin/sumFunction/index.js', // 单个文件2
+  // entry: NODE_ENV == 'development' ? './src/main.js' : './src/lib/sumFunction/index.js', // 单个文件2
   entry: NODE_ENV == 'development' ? './src/main.js' : './src/index.js', //多个组件
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'acService.js',
-    library: 'acService', // 指定的就是你使用require时的模块名
+    filename: 'm-plugin.js',
+    library: 'm-plugin', // 指定的就是你使用require时的模块名
     libraryTarget: 'umd', // 指定输出格式
     umdNamedDefine: true // 会对 UMD 的构建过程中的 AMD 模块进行命名。否则就使用匿名的 define
   },
@@ -25,7 +25,7 @@ module.exports = {
         options: {
               presets: ['es2015']
          },
-        include: [resolve('src'), resolve('myPlugin')]
+        include: [resolve('src'), resolve('lib')]
       },
       {
         test: /\.css$/,
