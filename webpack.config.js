@@ -8,7 +8,7 @@ function resolve (dir) {
 }
 module.exports = {
   // entry: NODE_ENV == 'development' ? './src/main.js' : './src/lib/sumFunction/index.js', // 单个文件2
-  entry: NODE_ENV == 'development' ? './src/main.js' : './src/index.js', //多个组件
+  entry: NODE_ENV == 'development' ? './src/main.js' : './src/lib/index.js', //多个组件
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',

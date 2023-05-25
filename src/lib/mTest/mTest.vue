@@ -6,6 +6,6 @@
 
 <script>
 export default {
-    name: 'sum2'
+    name: 'mTest'
 }
 </script>

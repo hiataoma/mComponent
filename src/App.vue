@@ -1,35 +1,22 @@
 <template>
   <div id="app">
-    <h2>calculate</h2>
-    <!-- <sum-function :num1="num1" :num2="num2" v-on:getSumFromChild="receiveChildSum"></sum-function> -->
-    <p>从子组件获取到的值：{{sumFromChild}}</p>
-    -----------------------------组件实现-----------------------------------
-    <br/>
-    ------------------------------弹窗实现----------------------------------
-    <br/>
-    ----------------------------------------------------------------
+    121212121
+    <!-- <OpenDialog></OpenDialog> -->
   </div>
 </template>
 
 <script>
-// import sumFunction from './lib/sumFunction/sum-function.vue' // 引入
+// import OpenDialog from '../src/lib/dialog/dialog.js'
 export default {
   name: 'app',
   data () {
     return {
-      num1: 4,
-      num2: 5,
-      sumFromChild: 0
     }
   },
-  components: { // 注册插件
-    // sumFunction
+  components: {
+    // OpenDialog
   },
-  methods: {
-    receiveChildSum (sum) { // 自定义事件，接收子组件的和
-      this.sumFromChild = sum
-    }
-  }
+  methods: {}
 }
 </script>
 
