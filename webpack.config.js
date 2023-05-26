@@ -98,9 +98,8 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    noInfo: true,
-    overlay: true,
-    host: ''
+    noInfo: true
+    // overlay: true //自动调试
   },
   performance: {
     hints: false

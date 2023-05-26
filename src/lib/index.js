@@ -3,8 +3,8 @@ import mTest from './mTest'
 
 
 const components = [
-    sum2,
-	mTest
+  sum2,
+  mTest
 ]
  
 const install = function(vue) {

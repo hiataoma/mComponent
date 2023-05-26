@@ -1,7 +1,8 @@
 <template>
   <div id="app">
-    121212121
+    <!-- <div>121212121</div> -->
     <!-- <OpenDialog></OpenDialog> -->
+    <div>1212121asasasa</div>
   </div>
 </template>
 
@@ -22,11 +23,8 @@ export default {
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  border: 1px solid red;
+  height: 100%;
+  width: 100%;
 }
 </style>

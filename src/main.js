@@ -1,3 +1,4 @@
+console.log('asasasa')
 import Vue from 'vue'
 import App from './App.vue'
 
@@ -6,6 +7,8 @@ import 'element-ui/lib/theme-chalk/index.css'
 
 
 Vue.use(ElementUI)
+
+console.log('=================================')
 
 new Vue({
   el: '#app',
